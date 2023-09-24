@@ -2,13 +2,14 @@
 <html>
   <head>
     <title>BYUI</title>
-    <!-- this link will link this HTML page to the CSS file. The rhel specifies the relationship between the current document and the linked document. the href shows where the document is located.-->
+    <!--This link will link this HTML page to the CSS file. The rel specifies the relationship between the current document and the linked document. The href shows where the document is located.-->
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <header>
         <nav>
-            <a href="byui.html">Home</a>
+            <a id="active" href="http://index.html">Home</a>
+            <!--We want to show users which page is the active page in the navigation. we will only have one active page at a time. Let's use an ID this time for our home page link. now we can target that ID in CSS using a hashtag preceding the id value. Remember we can't use the id of 'active' anywhere else on the page, but we can use another id with a different value if we need to.-->
             <a href="https://www.churchofjesuschrist.org">Church of Jesus Christ</a>
             <a href="https://www.churchofjesuschrist.org/temples">Temples</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
@@ -20,7 +21,9 @@
           src="https://www.byui.edu/images/service-sites/map-banner.jpg"
           alt="BYUI Campus"
         />
-        <p>BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students, faculty, and employees share a commitment to live the gospel.</p>
+        <p class='main-para'>BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students, faculty, and employees share a commitment to live the gospel.</p>
+        <!--give our paragraph a class or ID attribute to differentiate it from all other paragraphs on the page. This is done by adding class='main-para'
+        Then in CSS we can target just that class by using a dot selector. Classes are specified with a dot or period before the vlass name in CSS-->
         </main>
         <footer>
             <p>My Web Page 2023 ©</p>
