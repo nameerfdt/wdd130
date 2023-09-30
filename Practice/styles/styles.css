@@ -64,3 +64,8 @@ main p {
   margin: 50px auto; /*adding more margin to top and bottom of paragraph. Increase the 0 and add a pixel size*/
   text-align: center;
 }
+/*selector with the parent element first and then the child, or descendant next. The parent is the footer and the child is the paragraph in the foooter*/
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
