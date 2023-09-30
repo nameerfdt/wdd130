@@ -4,7 +4,7 @@
     text-align: center;
   }*/
 
-/*the background of the nav changed colors and a little bit of space, or padding, is added all around the links in the nav. */
+/*the background of the nav changed colors and a little bit of space, or padding, is added all around the links in the nav. Commented out due to two selectors with same values. see nav, footer
   nav {
     background-color: steelblue;
     padding: 10px;
@@ -30,10 +30,12 @@
   p {
     padding: 10px;
   }
+  /*Commented out due to two selectors with same values. see nav, footer
   footer {
     background-color: steelblue;
     color: white;
-  }
+  }*/
+
   .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
@@ -50,7 +52,11 @@
 /*this centers the nav and footer*/
   nav, footer {
     text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
 }
+
 /*center the paragrah container, that's inside main.*/
 main p {
   width: 80%;
