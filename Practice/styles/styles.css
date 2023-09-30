@@ -15,11 +15,18 @@
     margin: 40px;
     font-size: 1.5em; /*this sets font to 1.5 x's default of 16px* for the header bar in this example*/
   }
-  
+
+  /*pseudo class to change the background with the user hovers*/
+  a:hover {
+    background-color: white;
+    color:steelblue;
+  }
+
   h1 {
     text-align: center; /*centers all h1*/
     color: steelblue;
   }
+
   img {
     /*width: 800px;*/
     width: 80%; /*displays image at 80% for all devices*/
@@ -27,6 +34,7 @@
     display: block;
     margin: 0 auto;
   }
+
   p {
     padding: 10px;
   }
@@ -40,6 +48,7 @@
     font-size: 1.5em;
     line-height: 1.5em;
   }
+
   #active {
     background-color: white;
     color: steelblue;
@@ -64,6 +73,7 @@ main p {
   margin: 50px auto; /*adding more margin to top and bottom of paragraph. Increase the 0 and add a pixel size*/
   text-align: center;
 }
+
 /*selector with the parent element first and then the child, or descendant next. The parent is the footer and the child is the paragraph in the foooter*/
 footer p {
   font-size: 20px;
