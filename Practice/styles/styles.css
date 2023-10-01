@@ -53,10 +53,10 @@
     background-color: white;
     color: steelblue;
   }
-  /*the following puts a border around every element so we can see them
+  /*the following puts a border around every element so we can see them*/
   * {
     border: 2px solid blue;
-} */
+} 
 
 /*this centers the nav and footer*/
   nav, footer {

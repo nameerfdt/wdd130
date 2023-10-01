@@ -1,4 +1,6 @@
-
+/** {
+    border: 2px solid blue;
+}*/
 body {
     background-color: pink;
 }
@@ -10,23 +12,30 @@ h1 {
 
 main p {
     text-align: center;
+    color: white;
 }
 
 ol li {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 10%;
 }   
 
 h2 {
     color: white;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
 
 footer {
