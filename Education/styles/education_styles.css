@@ -3,23 +3,30 @@
 }*/
 body {
     background-color: pink;
-}
-
-h1 {
     text-align: center;
     color: white;
-}  
+}
 
-h1:hover {
+main .p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*h1 {
+    text-align: center;
+    color: white;
+}*/  
+
+h1:hover, footer {
     color: black;
 }
 
-main p {
-    text-align: center;
+/*main p {
+   text-align: center;
     color: white;
-}
+}*/
 
 ol li {
+    color: black;
     text-align: left;
     list-style-position: inside;
     margin-left: auto;
@@ -35,13 +42,13 @@ img {
 }   
 
 h2 {
-    color: white;
-    text-align: center;
+    /*color: white;*/
+    /*text-align: center;*/
     margin-left: auto;
     margin-right: auto;
     width: 15%;
 }
 
-footer p {
+/*footer p {
     text-align: center;
-}
+}*/
