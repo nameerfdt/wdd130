@@ -1,0 +1,104 @@
+#content {
+    max-width: 1600px; /*maximum width the page will be*/
+    margin: 0 auto; /*0=top/bottom margin to 0; auto split marging between left and right */
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #EF343F;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #1054A5;
+}
+
+.book, .join {
+    background-color: #62BCE2;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #1054A5;
+    color: white;
+}
+
+.msg {
+    background-color: #EF343F; /*not seeing this color*/
+}
+
+.msg h2 {
+    color: black; /*not sure of color*/
+}
+
+.msg p {
+    color: #EF343F; /*not sure of color*/
+}
+
+footer {
+    background-color: #EF343F;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+s
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
