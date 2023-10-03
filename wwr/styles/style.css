@@ -27,6 +27,7 @@ main section {
 
 #background {
     height: 725px;
+    background-color: #1054A5;
 }
 
 body {
@@ -54,15 +55,15 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #EF343F; /*not seeing this color*/
+    background-color: #EF343F;
 }
 
 .msg h2 {
-    color: black; /*not sure of color*/
+    color: black;
 }
 
 .msg p {
-    color: #EF343F; /*not sure of color*/
+    color: black;
 }
 
 footer {
