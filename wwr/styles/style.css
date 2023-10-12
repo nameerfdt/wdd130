@@ -73,7 +73,7 @@ nav a:hover {
 
 .msg h2 {
     color: black;
-    font-family: "Handlee"; /*need more fonts*/
+    font-family: "Handlee", Arial, sans-serif;
 }
 
 .msg p {
@@ -107,8 +107,8 @@ footer p a:hover {
 }
 
 .home-title {
-    color: black;
-    font-family: "Handlee"; /*need more fonts*/
+    color: #EF343F;
+    font-family: "Handlee", Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
