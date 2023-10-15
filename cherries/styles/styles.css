@@ -1,0 +1,14 @@
+h1 {
+    font-size: auto;
+}
+
+#background {
+    display: grid;
+    background-color: gray;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+h2 {
+    color: rgb(237, 40, 40);
+}
