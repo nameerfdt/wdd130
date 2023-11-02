@@ -226,6 +226,45 @@ nav {
     transform: scale(1.1);
 }
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+#river-img {
+    width: 100%;
+}
+
+.idaho-img {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+#idaho.msg {
+    grid-column: 5/9;
+    grid-row: 1/2;
+}
+
+.utah-img{
+    grid-column: 7/9;
+    grid-row: 2/3;
+}
+
+#utah-msg{
+    grid-column: 7/9;
+    grid-row: 2/3;
+}
+
+.arizona-img{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+#utah-msg{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
 /*this is @media query. DO NOT add anything after.
 This could be read as follows: "If the max width of the screen gets smaller than 900px, then use this CSS instead of what you may have seen above" for these selectors.
 This CSS will not go into effect unless the screen is less than 900px;*/
