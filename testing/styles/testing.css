@@ -1,0 +1,28 @@
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#idaho-img {
+    grid-column: 1/2;
+}
+
+#idaho-msg {
+    grid-column: 2/4;
+}
+#utah-img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#utah-msg {
+    grid-column: 1/3;
+    grid-row: 
+}
+#arizona-img {
+    grid-row: 3/4;
+}
+#arizona-msg{
+    grid-column: 2/4;
+}
+
