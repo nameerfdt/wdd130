@@ -234,33 +234,42 @@ nav {
 
 .page-title {
     text-align: center;
+    padding: 40px;
 }
 
 .rivers-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 #idaho-img {
     grid-column: 1/2;
+    padding: 30px;
 }
 
 #idaho-msg {
     grid-column: 2/4;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 #utah-img {
     grid-column: 3/4;
     grid-row: 2/3;
+    padding: 30px;
 }
 
 #utah-msg {
     grid-column: 1/3; 
+    padding: 15px 15px 30px 30px;
 }
 #arizona-img {
     grid-row: 3/4;
+    padding: 30px;
 }
 #arizona-msg{
     grid-column: 2/4;
+    padding: 15px 15px 30px 30px;
 }
 
 
