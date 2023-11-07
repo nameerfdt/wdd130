@@ -245,7 +245,9 @@ nav {
 
 #idaho-img {
     grid-column: 1/2;
-    padding: 30px;
+    margin: 30px;
+    box-shadow: 15px 15px #1054A5;
+    border-radius: 20px;
 }
 
 #idaho-msg {
@@ -256,7 +258,9 @@ nav {
 #utah-img {
     grid-column: 3/4;
     grid-row: 2/3;
-    padding: 30px;
+    margin: 30px;
+    box-shadow: 15px 15px #1054A5;
+    border-radius: 20px;
 }
 
 #utah-msg {
@@ -265,7 +269,9 @@ nav {
 }
 #arizona-img {
     grid-row: 3/4;
-    padding: 30px;
+    margin: 30px;
+    box-shadow: 15px 15px #1054A5;
+    border-radius: 20px;
 }
 #arizona-msg{
     grid-column: 2/4;
