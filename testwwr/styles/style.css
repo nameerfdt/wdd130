@@ -230,8 +230,9 @@ nav {
 
 #river-img {
     width: 100%;
+    height: auto;
 }
-
+  
 .page-title {
     text-align: center;
     padding: 40px;
@@ -239,47 +240,50 @@ nav {
 
 .rivers-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(10,1fr);
     align-items: center;
 }
 
-#idaho-img {
-    grid-column: 1/2;
-    margin: 30px;
+.rivers-img {
+    width: 90%;
     box-shadow: 15px 15px #1054A5;
     border-radius: 20px;
+}
 
+#idaho-img {
+    grid-column: 1/4;
+    margin-left: 10%;
 }
 
 #idaho-msg {
-    grid-column: 2/4;
-    padding-right: 30px;
-    padding-left: 30px;
+    grid-column: 4/11;
+    padding: 30px;
+    margin-right: 5%;
 }
+
 #utah-img {
-    grid-column: 3/4;
     grid-row: 2/3;
-    margin: 30px;
-    box-shadow: 15px 15px #1054A5;
-    border-radius: 20px;
+    grid-column: 8/11;
+    margin-right: 10%;
 }
 
 #utah-msg {
-    grid-column: 1/3; 
-    padding: 15px 15px 30px 30px;
+    grid-column: 1/8;
+    padding: 30px;
+    margin-left: 5%;
+    
 }
+
 #arizona-img {
-    grid-row: 3/4;
-    margin: 30px;
-    box-shadow: 15px 15px #1054A5;
-    border-radius: 20px;
-}
-#arizona-msg{
-    grid-column: 2/4;
-    padding: 15px 15px 30px 30px;
+    grid-column: 1/4;
+    margin-left: 10%;
 }
 
-
+#arizona-msg {
+    grid-column: 4/11;
+    padding: 30px;
+    margin-right: 5%;
+}
 
 
 /*this is @media query. DO NOT add anything after.
