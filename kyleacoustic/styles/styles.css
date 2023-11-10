@@ -3,9 +3,10 @@
 body {
     background-color: #182E55;
     font-family: Courgette, Arial, sans-serif;
-    font-size: 22px;
+    font-size: 40px;
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 header {
@@ -20,12 +21,26 @@ nav a {
     padding: 35px;
 }
 
+.logo {
+    height: 80%;
+    width: auto;
+}
 main {
     text-align: center;
 }
 
+h2 {
+    font-family: Courgette, Arial, sans-serif;
+}
+
+#home-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    padding: 40px;
+}
+
 footer {
-    background-color: #EF343F;
+    background-color: #182E55;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
