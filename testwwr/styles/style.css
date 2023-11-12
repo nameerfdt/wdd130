@@ -330,4 +330,8 @@ This CSS will not go into effect unless the screen is less than 900px;*/
     footer {
         margin-top: 25px;
     }
+    #idaho-img, #utah-img, #arizona-img {
+        display: block;
+        height: auto;
+    }
 }
