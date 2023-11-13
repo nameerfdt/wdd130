@@ -291,9 +291,12 @@ This could be read as follows: "If the max width of the screen gets smaller than
 This CSS will not go into effect unless the screen is less than 900px;*/
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid .rivers-grid{
+    #hero, .home-grid {
         display: block;
         height: auto;
+    }
+    .rivers-grid {
+        grid-template-columns: 1fr;
     }
     nav, footer {
         flex-direction: column;
