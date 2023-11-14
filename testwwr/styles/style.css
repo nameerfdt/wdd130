@@ -295,9 +295,7 @@ This CSS will not go into effect unless the screen is less than 900px;*/
         display: block;
         height: auto;
     }
-    .rivers-grid {
-        grid-template-columns: 1fr;
-    }
+
     nav, footer {
         flex-direction: column;
     }
@@ -333,8 +331,12 @@ This CSS will not go into effect unless the screen is less than 900px;*/
     footer {
         margin-top: 25px;
     }
-    .idaho, .uath, .arizona {
-        margin: 50px auto;
-        width: 100%;
+    .rivers-grid {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+    #idaho-img {
+        display: block;
+        width: 60%;
     }
 }
