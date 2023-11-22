@@ -11,15 +11,21 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 300px auto;
-    background-color: white;
-}
+    grid-template-columns: 150px auto;
+    background-color: #182E55;
+    justify-content: center;
+    }
 
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}    
 nav a {
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
-    padding: 35px;
+    padding: 25px;
+    vertical-align: ;
 }
 
 .logo {
