@@ -1,5 +1,9 @@
 * {box-sizing:border-box}
 
+img {
+  vertical-align: middle
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -89,7 +93,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anybody&family=Courgette&display=swap');
 
-/*this sets grid for header and colors it grey background*/
+/*
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -103,10 +107,11 @@ nav {
 }
 
 #logo_link {
-    padding: 10px; /*this gives spcing around logo*/
+    padding: 10px; /*this gives spcing around logo
     justify-self: center;
     align-self: center;
 }
+*/
 
 nav a {
     font-family: Courgette, Arial, sans-serif;
