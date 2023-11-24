@@ -51,7 +51,7 @@ nav a:hover, footer a:hover {
 body {
     background-color: #182E55;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     padding: 0;
     margin: 0;
     color: #EDE3DF;
@@ -74,14 +74,14 @@ h1 {
 
 #home-bio {
     text-align: center;
-    margin: 100px;
+    margin: 50px 50px;
 }
 
 footer {
     background-color: #EDE3DF;
     color: #182E55;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -115,6 +115,11 @@ This CSS will not go into effect unless the screen is less than 900px;*/
     }
     nav a {
         display: block;
+
+    }
+
+    body {
+        font-size: 10px;
     }
     #hero {
         margin-top: 30px;
