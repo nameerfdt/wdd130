@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody&family=Courgette&display=swap');
 
+#content {
+    max-width: 1600px; 
+    margin: 0 auto; 
+}
+
 /*this sets grid for header and colors it grey background*/
 header {
     display: grid;
@@ -95,3 +100,27 @@ footer p {
 /*footer p a:hover {
     text-decoration: underline;
 }*/
+
+/*this is @media query. DO NOT add anything after.
+This could be read as follows: "If the max width of the screen gets smaller than 900px, then use this CSS instead of what you may have seen above" for these selectors.
+This CSS will not go into effect unless the screen is less than 900px;*/
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+    }
+    #hero {
+        margin-top: 30px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
