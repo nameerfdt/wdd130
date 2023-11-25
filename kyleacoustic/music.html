@@ -10,7 +10,7 @@
 
 <body>
     <div id="content">
-        <header>
+        <header class="header" id="myHeader">
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/kylefreeman_logo.png" alt="Kyle Acoustic Logo">
             </a>
@@ -77,6 +77,20 @@
             <p><a href="site-plan.html">Site Plan</a></p>
         </footer>
     </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 
 </html>
