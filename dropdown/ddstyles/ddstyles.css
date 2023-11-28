@@ -33,7 +33,7 @@ nav a {
 }
 
 /*this sets hover properties fr the navigation*/
-nav a:hover, footer a:hover {
+nav a:hover, footer a:hover, div .dropbtn:hover{
     background-color: #D9B26D;
     color:#A55B50;
     text-decoration: underline;
