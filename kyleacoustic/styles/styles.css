@@ -236,10 +236,12 @@ This CSS will not go into effect unless the screen is less than 900px;*/
     }
     nav a {
         display: block;
+        font-size: 15px;
+        padding: 5px;
     }
 
     body {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     #hero {
