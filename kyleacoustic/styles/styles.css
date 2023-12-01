@@ -10,6 +10,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #EDE3DF;
+    width: auto;
 }
 
 nav {
@@ -201,12 +202,12 @@ h2 {
 /* Style the header */
 .header {
     padding: 10px 16px;
+    padding: 0;
   }
-  
   
   /* Page content */
   .content {
-    padding: 16px;
+    padding-top: 0;
   }
   
   /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -217,7 +218,7 @@ h2 {
   }
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+  .sticky + #content {
     padding-top: 102px;
 
   }
@@ -254,7 +255,6 @@ This CSS will not go into effect unless the screen is less than 900px;*/
 
     footer {
         margin-top: 25px;
-
     }
     .music-grid {
         display: block;
