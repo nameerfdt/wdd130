@@ -83,7 +83,7 @@ footer {
     background-color: #EDE3DF;
     color: #182E55;
     padding: 25px 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -196,6 +196,56 @@ h2 {
 /*footer p a:hover {
     text-decoration: underline;
 }*/
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#mcpherson-title, #breedlove-title {
+    grid-column: 1/6;
+    justify-items: center;
+}
+
+#mcpherson1 {
+    grid-column: 2/3;
+    place-self: center;
+}
+#mcpherson3 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    place-self: center;
+}
+#mcpherson2 {
+    grid-column: 4/5;
+    place-self: center;
+}
+#mcpherson-text, #breedlove-text {
+    grid-column: 1/6;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align:center;
+}
+#breedlove1 {
+    grid-column: 2/3;
+    margin-right: 50px
+}
+#breedlove2 {
+    grid-column: 3/4;
+}
+#breedlove3 {
+    grid-column: 4/5;
+    margin-left: 50px;
+}
+
+.info {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#questions, #equipment{
+    margin-left: 10%;
+}
 
 
 /*static header*/
