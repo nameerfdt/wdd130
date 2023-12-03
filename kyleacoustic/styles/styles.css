@@ -193,10 +193,6 @@ h2 {
     padding-right: 10%;
 }
 
-/*footer p a:hover {
-    text-decoration: underline;
-}*/
-
 .equipment-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -256,7 +252,7 @@ h2 {
   }
   
   /* Page content */
-  .content {
+  #content {
     padding-top: 0;
   }
   
@@ -278,7 +274,7 @@ This could be read as follows: "If the max width of the screen gets smaller than
 This CSS will not go into effect unless the screen is less than 900px;*/
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .music-grid, .equipment-grid {
         display: block;
         height: auto;
     }
@@ -290,33 +286,47 @@ This CSS will not go into effect unless the screen is less than 900px;*/
         font-size: 15px;
         padding: 5px;
     }
-
     body {
         font-size: 15px;
     }
-
     #home-bio {
         margin: 25px;
     }
-
     #hero {
         margin-top: 30px;
     }
-
     footer {
         margin-top: 25px;
     }
     .music-grid {
-        display: block;
-        margin: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #song1_img, #song2_img, #song3_img, #song4_img, #song5_img, #song6_img {
-        max-width: 80%;
+        max-width: 70%;
         margin: 50px;
     }
-    #song1, #song2, #song3, #song4, #song5, #song6 {
-        margin-left: 30px;
+    #song1, #song3, #song5 {
         margin-right: 30px;
+        text-align: center;
+    }
+    #song2, #song4, #song6 {
+        margin-left: 30px;
+        text-align: center;
+    }
+    #song3 {
+        margin-left: 15px;
+    }
+    #mcpherson1, #mcpherson2{
+        max-width: 70%;
+        margin-left: 85px;
+        padding-bottom: 20px;
+    }
+    #mcpherson3, #breedlove1, #breedlove2, #breedlove3 {
+        max-width: 70%;
+        margin-left: 50px;
+        padding-bottom: 20px;
     }
     .sticky {
         position: static;
