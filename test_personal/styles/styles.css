@@ -98,7 +98,7 @@ footer p {
     font-size: 1.2em;
 }
 
-/*this is start of styles dor music*/
+/*this is start of styles for music*/
 
 .music-grid {
     display: grid;
@@ -196,6 +196,7 @@ h2 {
 .equipment-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    /*margin: auto;*/
 }
 
 #mcpherson-title, #breedlove-title {
@@ -304,8 +305,9 @@ This CSS will not go into effect unless the screen is less than 900px;*/
         margin-right: auto;
     }
     #song1_img, #song2_img, #song3_img, #song4_img, #song5_img, #song6_img {
+        display: block;
         max-width: 70%;
-        margin: 50px;
+        margin: auto;
     }
     #song1, #song3, #song5 {
         margin-right: 30px;
@@ -319,14 +321,24 @@ This CSS will not go into effect unless the screen is less than 900px;*/
         margin-left: 15px;
     }
     #mcpherson1, #mcpherson2{
-        max-width: 70%;
-        margin-left: 85px;
+        display: block;
+        /*max-width: 70%;
+        margin-left: 85px;*/
         padding-bottom: 20px;
+        /*flex: 100%;*/
+        width: 70%;
+        margin: auto;
+
     }
     #mcpherson3, #breedlove1, #breedlove2, #breedlove3 {
-        max-width: 70%;
-        margin-left: 50px;
+        display: block;
+        /*max-width: 70%;
+        margin-left: 50px;*/
         padding-bottom: 20px;
+        margin: auto;
+        /*flex: 100%;*/
+        width: 70%;
+
     }
     .sticky {
         position: static;
