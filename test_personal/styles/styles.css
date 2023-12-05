@@ -5,8 +5,7 @@
     margin: 0 auto;
 }
 
-/*this sets grid for header and colors it grey background*/
-header {
+.header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #EDE3DF;
@@ -247,10 +246,10 @@ h2 {
 
 /*static header*/
 /* Style the header */
-.header {
+/*.header {
     padding: 10px 16px;
     padding: 0;
-  }
+  }*/
   
   /* Page content */
   #content {
