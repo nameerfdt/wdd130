@@ -304,28 +304,22 @@ This CSS will not go into effect unless the screen is less than 900px;*/
         margin-right: auto;
     }
     #song1_img, #song2_img, #song3_img, #song4_img, #song5_img, #song6_img {
-        max-width: 70%;
-        margin: 50px;
-    }
-    #song1, #song3, #song5 {
-        margin-right: 30px;
-        text-align: center;
-    }
-    #song2, #song4, #song6 {
-        margin-left: 30px;
-        text-align: center;
-    }
-    #song3 {
-        margin-left: 15px;
-    }
-    #mcpherson1, #mcpherson2{
-        max-width: 70%;
-        margin-left: 85px;
+        display: block;
+        width: 50%;
+        margin: auto;
         padding-bottom: 20px;
     }
-    #mcpherson3, #breedlove1, #breedlove2, #breedlove3 {
-        max-width: 70%;
-        margin-left: 50px;
+    #song1, #song3, #song5, #song2, #song4, #song6 {
+        display: block;
+        margin: auto;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    #mcpherson1, #mcpherson2, #mcpherson3, #breedlove1, #breedlove2, #breedlove3 {
+        display: block;
+        width: 50%;
+        margin: auto;
         padding-bottom: 20px;
     }
     .sticky {
