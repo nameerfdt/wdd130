@@ -322,6 +322,12 @@ This CSS will not go into effect unless the screen is less than 900px;*/
         margin: auto;
         padding-bottom: 20px;
     }
+    .info {
+        text-align: left;
+    }
+    #questions {
+        padding-right: 15px;
+    }
     .sticky {
         position: static;
     }
